@@ -1,0 +1,14 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-subtitle>{{curso?.nome}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{curso?.conteudos[+paginaAtual -1].titulo}}</p>
+      <p>{{curso?.conteudos[+paginaAtual -1].descricao}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button [disabled]="+paginaAtual == 1" mat-button (click)="anterior()">ANTERIOR</button>
+      <span> {{paginaAtual}} </span>
+      <button mat-button (click)="proxima()" [disabled]="+paginaAtual == curso?.conteudos.length" >PROXIMO</button>
+    </mat-card-actions>
+</mat-card>
