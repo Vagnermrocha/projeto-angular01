@@ -57,8 +57,3 @@ Este projeto está sob a licença MIT.
 ---
 
 Desenvolvido com 💻 por Vagner Rocha
-`
-
----
-
-Se quiser, posso te ajudar a criar uma imagem de capa com visual profissional para esse projeto ou montar uma vitrine com seus melhores repositórios. Quer fazer isso?
