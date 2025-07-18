@@ -50,10 +50,6 @@ Este projeto foi criado para praticar:
 - Separação entre componentes de apresentação e containers
 - Boas práticas de arquitetura escalável
 
-📄 Licença
-
-Este projeto está sob a licença MIT.
-
 ---
 
 Desenvolvido com 💻 por Vagner Rocha
